@@ -11,6 +11,6 @@ public class Zadatak1 {
 //        Push-ujte na github
 
 
-        System.out.println("git clone, git add, git status, git push, git");
+        System.out.println("git clone, git add, git status, git push, git commit, git add");
     }
 }
