@@ -12,7 +12,6 @@ public class Zadatak4 {
 // program ne reaguje na takve zahteve tj. nista ne ispisuje,
 // a ukoliko korisnik zamoli tada program ispisuje “Dogovoreno!”.
 // Program radi dok korisnik ne unese “Hvala!”. Na kraju programa ispisati “Cao”
-//Commitujte zadatak i push-ujte na github, sa porukom “Domaci 13.05.2022 Zadatak 4”.
 // Za ovaj zadatak trebace vam nextLine metoda sa scannerom.
 //Primer izvrsenja:
 //Unesite zahtev: Molim te, podseti me sutra da kupim sapun.
@@ -24,13 +23,13 @@ public class Zadatak4 {
 //Cao
 
         Scanner s = new Scanner(System.in);
-        System.out.println("Unesite zahtev: ");
+        System.out.print("Unesite zahtev: ");
         String zahtev = s.nextLine();
         while (!zahtev.equals("Hvala!")) {
             if (zahtev.contains("Molim te")) {
                 System.out.println("Dogovoreno!");
             }
-            System.out.println("Unesite zahtev: ");
+            System.out.print("Unesite zahtev: ");
             zahtev = s.nextLine();
         }
         System.out.println("Cao!");
