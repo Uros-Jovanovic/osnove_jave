@@ -24,7 +24,7 @@ public class Zadatak3 {
         nizA.add(3);
         nizA.add(6);
         nizA.add(4);
-        nizA.add(3);
+        nizA.add(2);
         nizA.add(6);
         nizA.add(7);
         System.out.println("Niz: " + nizA);
