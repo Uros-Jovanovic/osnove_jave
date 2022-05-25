@@ -31,7 +31,7 @@ public class Zadatak1 {
         nizA.add(2);
         nizA.add(8);
         nizA.add(1);
-        nizA.add(3);
+        nizA.add(2);
 
         for (int i = 0; i < nizA.size(); i++) {
             System.out.print(nizA.get(i) + ", ");
