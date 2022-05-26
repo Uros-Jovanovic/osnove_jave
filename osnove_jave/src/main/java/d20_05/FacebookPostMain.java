@@ -23,7 +23,6 @@ public class FacebookPostMain {
         newPost2.lajkuj();
         newPost2.sheruj();
         newPost2.sheruj();
-        newPost2.sheruj();
         newPost2.stampaj();
 
 
