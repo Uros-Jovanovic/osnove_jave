@@ -12,7 +12,5 @@ public class Proizvod {
      System.out.println("Naziv proizvoda: " + this.nazivProizvoda);
      System.out.println("Cena proizvoda: " + this.cenaProizvoda + " dinara.");
      System.out.println("Tezina proizvoda: " + this.tezinaProizvodaUGramima + " grama.");
-
-
  }
 }
