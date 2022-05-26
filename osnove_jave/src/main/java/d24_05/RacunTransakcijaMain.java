@@ -9,7 +9,6 @@ public class RacunTransakcijaMain {
         System.out.println();
         milan.stampaj();
 
-        
         transakcija1.izvrsiTransakciju(20000);
         System.out.println();
         uros.stampaj();
