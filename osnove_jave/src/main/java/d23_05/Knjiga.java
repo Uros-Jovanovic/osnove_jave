@@ -20,7 +20,6 @@ public class Knjiga {
         this.godinaIzadanja = godinaIzadanja;
         this.autor = autor;
     }
-
     public int getIsbn() {
         return isbn;
     }
