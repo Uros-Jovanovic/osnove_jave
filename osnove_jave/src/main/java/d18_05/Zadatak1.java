@@ -4,7 +4,7 @@ public class Zadatak1 {
     public static void main(String[] args) {
 
         Proizvod kikiriki = new Proizvod();
-        kikiriki.nazivProizvoda = "Gud kikiriki";
+        kikiriki.nazivProizvoda = "Kikiriki";
         kikiriki.cenaProizvoda = 152.5;
         kikiriki.tezinaProizvodaUGramima = 200;
 
