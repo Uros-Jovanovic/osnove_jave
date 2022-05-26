@@ -17,7 +17,6 @@ public class FacebookPost {
 
     public FacebookPost() {
     }
-
     public FacebookPost(String objavio, String profil, String tekst) {
         this.objavio = objavio;
         this.profil = profil;
