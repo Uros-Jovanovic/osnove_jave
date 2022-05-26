@@ -53,8 +53,5 @@ public class ZeleniKartonMain {
         System.out.println("Prosecna ocena je: " + prosecnaOcena);
         prosecnaOcenaPolozenih = prosecnaOcenaPolozenih / brojac;
         System.out.println("Prosecna ocena polozenih ispita je: " + prosecnaOcenaPolozenih);
-
-
-
         }
     }
