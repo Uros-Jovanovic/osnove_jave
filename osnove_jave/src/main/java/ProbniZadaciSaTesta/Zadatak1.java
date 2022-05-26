@@ -10,7 +10,6 @@ public class Zadatak1 {
         System.out.print("Unesite visinu osobe (m): ");
         double visina = s.nextDouble();
         double bmi = tezina / (visina * visina);
-
         if (bmi < 18.5) {
             System.out.println("Neuhranjenost");
         } else if (bmi >= 18.5 && bmi <= 24.99) {
