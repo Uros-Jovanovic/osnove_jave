@@ -10,7 +10,7 @@ public class Zadatak3 {
 //        God. rodjenja: [god]
 //        Aktivan: [true/false]
 //        Metoda prima jmbg, ime, prezime, god rodjenja i da li je aktivan kao parametre metode.
-        podaciOKorisniku("2404992720027", "Uros", "Jovanovic, ", 1992, true);
+        podaciOKorisniku("2404992987654", "Uros", "Jovanovic", 1992, true);
     }
 
     static void podaciOKorisniku(String jmbg, String ime, String prezime, int godinaRodjenja, boolean aktivan) {
