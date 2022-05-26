@@ -9,13 +9,14 @@ public class Zadatak2 {
         klimaUredjajPrvi.mod = "hladi";
 
         SmartAirConditioning klimaUredjajDrugi = new SmartAirConditioning();
-        klimaUredjajDrugi.markaKlime = "Lenovo";
+        klimaUredjajDrugi.markaKlime = "Beko";
         klimaUredjajDrugi.izabranaTemperatura = 30;
         klimaUredjajDrugi.mod = "greje";
 
 
 
         klimaUredjajPrvi.stampa();
+        System.out.println();
         klimaUredjajDrugi.stampa();
 
 
