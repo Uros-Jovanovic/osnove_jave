@@ -44,13 +44,14 @@ public class Transakcija {
     public void izvrsiTransakciju(int vrednost) {
         if (this.racunSaKogSePrenosi.getTrenutnoStanje() < vrednost) {
             System.out.println("Nemate dovoljno novca na racunu za ovu transakciju.");
-        }
-            else{ if (vrednost < 4500) {
-            provizijaTransakcije = 45;
         } else {
-            provizijaTransakcije = vrednost / 100;}
-                this.racunSaKogSePrenosi.setTrenutnoStanje(racunSaKogSePrenosi.getTrenutnoStanje() - vrednost - provizijaTransakcije);
-                this.racunNaKojiSePrenosi.setTrenutnoStanje(this.racunNaKojiSePrenosi.getTrenutnoStanje() + vrednost);
+            if (vrednost < 4500) {
+                provizijaTransakcije = 45;
+            } else {
+                provizijaTransakcije = vrednost / 100;
             }
+            this.racunSaKogSePrenosi.setTrenutnoStanje(racunSaKogSePrenosi.getTrenutnoStanje() - vrednost - provizijaTransakcije);
+            this.racunNaKojiSePrenosi.setTrenutnoStanje(this.racunNaKojiSePrenosi.getTrenutnoStanje() + vrednost);
         }
     }
+}
