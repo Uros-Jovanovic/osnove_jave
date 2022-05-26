@@ -12,8 +12,6 @@ public class SmartAirConditioning {
             System.out.println("Marka klime je " + this.markaKlime);
             System.out.println("Izabrana temperatura je: " + this.izabranaTemperatura + " C");
             System.out.println("Izabran je mod: " + this.mod);
-
-
             }
         }
 
