@@ -1,10 +1,7 @@
 package d24_05;
 
 public class Racun {
-    //    metodu koja menja stanje na racunu za prosledjenu vrednost (stanje na racunu ne moze da bude manje od nule)
-//    metodu koja stampa podatke o racunu u formatu:
-//    Ime i prezime  -  broj racuna
-//    stanje na racunu je (trenutno stanje) rsd.
+
     private String brojRacuna;
     private String imeIPrezime;
     private double trenutnoStanje;
@@ -45,7 +42,8 @@ public class Racun {
     public double promeniStanje(double vrednostTransakcije) {
         if (vrednostTransakcije >= trenutnoStanje) {
             trenutnoStanje = trenutnoStanje + vrednostTransakcije;
-        return trenutnoStanje; }
+            return trenutnoStanje;
+        }
         return trenutnoStanje;
     }
 
