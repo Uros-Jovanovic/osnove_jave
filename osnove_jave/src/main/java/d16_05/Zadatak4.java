@@ -7,11 +7,7 @@ public class Zadatak4 {
 //        Metoda prima dva parametra N i karakter za stampu. Metoda stampa N karaktera.
 //        Ako se za N prosledi 5 i za karakter prosledi npr kosa crta (/) stampa se=>
 /// / / / /
-//            Scanner s = new Scanner(System.in);
-//        System.out.print("Unesite parametar N: ");
-//        int n = s.nextInt();
-//        System.out.print("Unesite parametar M: ");
-//        String m = s.nextLine();
+
  stampanjeKaraktera(5, "/");
 
     }
