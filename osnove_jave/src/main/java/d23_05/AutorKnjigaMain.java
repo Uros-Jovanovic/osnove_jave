@@ -8,6 +8,7 @@ public class AutorKnjigaMain {
         Autor karizi = new Autor("Donato", "Karizi");
         Knjiga knjiga2 = new Knjiga(9763, "Decak od stakla", 2005, karizi);
 
+
         knjiga1.stampaj();
         System.out.println();
         knjiga2.stampaj();
