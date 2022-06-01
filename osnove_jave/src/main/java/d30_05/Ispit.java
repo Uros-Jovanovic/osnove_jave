@@ -10,7 +10,6 @@ public class Ispit {
         this.ocena = ocena;
         this.imeIPrezimeProfesora = imeIPrezimeProfesora;
     }
-
     public String getNazivPredmeta() {
         return nazivPredmeta;
     }
