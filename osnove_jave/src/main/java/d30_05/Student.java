@@ -3,19 +3,6 @@ package d30_05;
 import java.util.ArrayList;
 
 public class Student {
-//niz ispita
-//konstuktore koje mislite da ce vam trebati
-//gettere i settere za indeks, ime i prezime, tip studija
-//getter za niz predmeta
-//metodu dodaj ispit u niz ispita
-//metodu koja racuna prosek na studijama (u prosek se ubrajaju samo polozeni ispiti)
-//metodu stampaj koja stampa u formatu:
-//(broj indeksa) - (ime i prezime) - (tip studija)
-//Predmeti:
-//(naziv predmeta) - (profesor) - (ocena)
-//(naziv predmeta) - (profesor) - (ocena)
-//(naziv predmeta) - (profesor) - (ocena)
-//Prosecna ocena: (prosecna ocena)
     private int brojIndeksa;
     private String imeIPrezime;
     private String tipStudija;
@@ -76,4 +63,4 @@ public class Student {
             }
     }
     }
-    
+
