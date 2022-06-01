@@ -16,7 +16,5 @@ public class OsobaMain {
         t2.stampaj();
         i1.stampaj();
         i2.stampaj();
-
-
     }
 }
