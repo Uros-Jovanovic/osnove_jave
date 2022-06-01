@@ -1,4 +1,4 @@
-package ProbniZadaciSaTesta;
+package p31_05.ProbniZadaciSaTesta;
 
 import java.util.Scanner;
 
