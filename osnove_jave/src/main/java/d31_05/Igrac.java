@@ -11,7 +11,6 @@ public class Igrac extends Osoba {
 
     public Igrac() {
     }
-
     public Igrac(String imeIPrezime, String jmbg, String datumRodjenja, int brojIgraca, String pozicijaIgraca, boolean daLiJeKapiten) {
         super(imeIPrezime, jmbg, datumRodjenja);
         this.brojIgraca = brojIgraca;
