@@ -44,5 +44,3 @@ public class Osoba {
         System.out.println(this.imeIPrezime + ", " + this.jmbg + ", " + this.datumRodjenja);
     }
 }
-//    metodu stampaj koja stampa u formatu:
-//            (ime i prezime), (jmbg), (godina rodjenja)
