@@ -20,7 +20,6 @@ public class IspitStudentMain {
         student1.dodajIspit(ispit2);
 
         student1.stampaj();
-
         student1.racunajProsek();
 
     }
