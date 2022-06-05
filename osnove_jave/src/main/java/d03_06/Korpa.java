@@ -4,42 +4,27 @@ import java.util.ArrayList;
 
 public class Korpa {
     private ArrayList<Ambalaza> ambalaze = new ArrayList<>();
-    public Korpa() {
-    }
 
-    public Korpa(ArrayList<Ambalaza> ambalaze) {
-        this.ambalaze = ambalaze;
-    }
-
-    public ArrayList<Ambalaza> getAmbalaze() {
-        return ambalaze;
-    }
-
-    public void setAmbalaze(ArrayList<Ambalaza> ambalaze) {
-        this.ambalaze = ambalaze;
-    }
-
-    public void dodajAmbalazu(Ambalaza a){
+    public void dodajAmbalazu(Ambalaza a) {
         ambalaze.add(a);
     }
-    public void izbaciAmbalazu(String barkod){
+
+    public void izbaciAmbalazu(String barkod) {
         int brojac = 0;
 
-        for (int i = 0; i < ambalaze.size() ; i++) {
-            if (ambalaze.get(i).getBarkod().equals(barkod)){
-                brojac = i;
+        for (int i = 0; i < ambalaze.size(); i++) {
+            if (ambalaze.get(i).getBarkod().equals(barkod)) {
+                ambalaze.remove(i);
             }
         }
-        ambalaze.remove(brojac);
     }
-    private double vratiCenu(double popust){
+
+    public double vratiCenu(SuperKartica s1) {
         double cenaAmbalazeSaPopustom = 0;
-        for (int i = 0; i < ambalaze.size() ; i++) {
-            cenaAmbalazeSaPopustom = cenaAmbalazeSaPopustom + ambalaze.get(i).cenaArtikla() - popust;
+        for (int i = 0; i < ambalaze.size(); i++) {
+            cenaAmbalazeSaPopustom = cenaAmbalazeSaPopustom + ambalaze.get(i).cenaArtikla() - s1.getPopust();
         }
         return cenaAmbalazeSaPopustom;
     }
-    public double cenaKorpe(SuperKartica s1){
-      return vratiCenu(s1.getPopust());
-    }
+
 }
