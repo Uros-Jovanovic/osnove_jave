@@ -6,9 +6,8 @@ public abstract class Radnik {
     protected String punoIme;
     protected ArrayList<Sektor> sektori = new ArrayList<>();
 
-    public Radnik(String punoIme, ArrayList<Sektor> sektori) {
+    public Radnik(String punoIme) {
         this.punoIme = punoIme;
-        this.sektori = sektori;
     }
 
     public String getPunoIme() {
@@ -29,7 +28,7 @@ public abstract class Radnik {
 
 
 
-    public abstract int plata ();
+    public abstract double plata();
     public void zaposliUSektor(Sektor sektor){
         sektori.add(sektor);
     }

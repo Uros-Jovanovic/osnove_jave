@@ -2,9 +2,9 @@ package d02_06;
 
 public class Sektor {
     private String nazivSektora;
-    private int plata;
+    private double plata;
 
-    public Sektor(String nazivSektora, int plata) {
+    public Sektor(String nazivSektora, double plata) {
         this.nazivSektora = nazivSektora;
         this.plata = plata;
     }
@@ -17,11 +17,11 @@ public class Sektor {
         this.nazivSektora = nazivSektora;
     }
 
-    public int getPlata() {
+    public double getPlata() {
         return plata;
     }
 
-    public void setPlata(int plata) {
+    public void setPlata(double plata) {
         this.plata = plata;
     }
 }
