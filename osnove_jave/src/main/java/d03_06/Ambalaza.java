@@ -48,8 +48,7 @@ public abstract class Ambalaza {
                 this.brutoTezina = brutoTezina;
         }
         public double tezinaPakovanja(){
-             double ukupnaTezina =  this.brutoTezina - this.netoTezina;
-             return ukupnaTezina;
+                return this.brutoTezina - this.netoTezina;
         }
         public abstract double cenaArtikla();
         public abstract void stampaj();

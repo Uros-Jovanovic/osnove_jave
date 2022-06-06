@@ -40,7 +40,6 @@ public class Tetrapak extends Ambalaza {
         else {
             return osnovnaCena;}
         }
-
     @Override
     public void stampaj() {
         System.out.println(this.barkod + " - " + this.nazivArtikla + " - " + this.netoTezina + " - " + this.brutoTezina

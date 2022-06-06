@@ -33,7 +33,6 @@ public class SuperKartica {
      public double getPopust() {
           return popust;
      }
-
      public void setPopust(double popust) {
           this.popust = popust;
      }

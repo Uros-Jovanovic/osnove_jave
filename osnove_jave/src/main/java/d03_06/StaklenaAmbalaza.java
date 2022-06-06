@@ -51,11 +51,10 @@ public class StaklenaAmbalaza extends Ambalaza {
                 + " - Da li ima kauciju: " + this.imaKauciju + "Ako ima kauciju, cena kaucije je: " +  this.kaucija +
                 this.osnovnaCena );
     }
-
     @Override
     public double cenaArtikla() {
         if ( imaKauciju == true){
-            return this.osnovnaCena * 1.2 * this.kaucija;
+            return this.osnovnaCena * 1.2 + this.kaucija;
         }
         else {
             return this.osnovnaCena * 1.2;
